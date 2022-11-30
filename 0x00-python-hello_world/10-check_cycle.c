@@ -22,5 +22,9 @@ int check_cycle(listint_t *list)
 			return (1);
 
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> eb2640daa492a04d56b33ba5cda875ce15bda702
 	return (0);
 }
