@@ -1,7 +1,7 @@
 import ctypes
 
 lib = ctypes.CDLL('./libpyList.so')
-lib.print_pytone_list_info.argtype = [ctypes.py_object]
+lib.print_pytone_list_info.argtypes = [ctypes.py_object]
 l = ['hello', 'world']
 lib.print_python_list_info(l)
 del l[1]
